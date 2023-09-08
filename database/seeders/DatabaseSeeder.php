@@ -48,6 +48,6 @@ class DatabaseSeeder extends Seeder
             'type' => 'RED WINE',
             'inv_cost' => '720',
             'status' => 'AVAILABLE',
-        ])
+        ]);
     }
 }
