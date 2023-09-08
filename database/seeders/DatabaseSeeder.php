@@ -34,9 +34,20 @@ class DatabaseSeeder extends Seeder
             'country' => 'FRANCE',
             'uom' => 'BTL',
             'commodity' => 'WINE',
-            'type' => 'RED WINE',
+            'type' => 'CHAMPANGE',
             'inv_cost' => '2656.58',
             'status' => 'AVAILABLE',
         ]);
+
+        Beverage::create([
+            'item_code' => '215-THBS',
+            'item_name' => 'RED WINE-Trinity Hill Hawkes Bay Syrah (07-WBG)',
+            'country' => 'NEW ZEALAND',
+            'uom' => 'BTL',
+            'commodity' => 'WINE',
+            'type' => 'RED WINE',
+            'inv_cost' => '720',
+            'status' => 'AVAILABLE',
+        ])
     }
 }
