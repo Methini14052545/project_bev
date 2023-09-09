@@ -5,6 +5,7 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 use App\Models\Beverage;
+use App\Models\Sales;
 use App\Models\Store;
 use App\Models\User;
 use Illuminate\Database\Seeder;
@@ -150,8 +151,15 @@ class DatabaseSeeder extends Seeder
             'status' => 'AVAILABLE',
         ]);
 
-        
+        Sales::create([
+            'item_number' => '53770018',
+            'item_code' => '214-38W',
+            'sale_price' => '295',
+            'sale_type' => 'WINE_BY_GLASS',
+        ]);
 
-        
+        Store::create([
+            'name' => 'MAIN',
+        ]);
     }
 }
