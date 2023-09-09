@@ -5,6 +5,7 @@ namespace Database\Seeders;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 
 use App\Models\Beverage;
+use App\Models\Store;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 
@@ -148,6 +149,8 @@ class DatabaseSeeder extends Seeder
             'inv_cost' => '1803.74',
             'status' => 'AVAILABLE',
         ]);
+
+        
 
         
     }
